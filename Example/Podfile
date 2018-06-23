@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QAdPicView_Example' do
+  pod 'QAdPicView', :path => '../'
+
+  target 'QAdPicView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
