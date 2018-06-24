@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7754CF45386F9FB7901D7E0B991DAA /* Pods-QAdPicView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F523DCBA95814C72CC1CE01EEEEE69F9 /* Pods-QAdPicView_Example-dummy.m */; };
+		2BB17E7753AE5181ABD5FDF036650319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		33524C8B1A13B58D4BDF8DB863746998 /* QAdPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06967F98D40F2B91B4E33F4F450E14C7 /* QAdPicView.m */; };
+		3A6045B7F61DAEB5C3D190C70390F712 /* QAdPicView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 523628DDEF01B500F95DFA7A2D4F5856 /* QAdPicView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EF4B97253CE0D8AC71C46733A593B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5BC6A84A3481A6AF3223370E0C5F22A4 /* Pods-QAdPicView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E61D2AB94942D1A58CFBECF37A7311BA /* Pods-QAdPicView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE03B12A70034D5BF8A0AF4E89B366E /* Pods-QAdPicView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 489CFD3E7574B4C58DB1B9304B75A9CC /* Pods-QAdPicView_Tests-dummy.m */; };
+		82F10192A0BC9588AC67880FCDEF8B45 /* QAdPicView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE0708B9EE7CBD356DD45FC3B46AA4 /* QAdPicView-dummy.m */; };
+		A14026AFF8ADCDC2CEEFCBB417C87F72 /* Pods-QAdPicView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ACFD38EB003D07E78DED0B9CF9806E /* Pods-QAdPicView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC7D299D8453869A857C724EE5AE5B7 /* QAdPicProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C4CE452C07917CCDF6F36F29439DC267 /* QAdPicProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB5B54526A5E6CA8A042C63FD397C5A8 /* QAdPicView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B3D140B72CE674AF1B4FBDE9224AE7 /* QAdPicView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB8CDA535870230BAEA800714E7D169E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07242E1E197363994C3618FC30C31CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB845692D43EE0C9252E59C60EA88C5E;
+			remoteInfo = "Pods-QAdPicView_Example";
+		};
+		73350FF9FA38FB2E62D9D73CAE8EDF12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0985130BEF408B5CF05D300551552E42;
+			remoteInfo = QAdPicView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06967F98D40F2B91B4E33F4F450E14C7 /* QAdPicView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QAdPicView.m; path = QAdPicView/Classes/QAdPicView.m; sourceTree = "<group>"; };
+		169AF6BF09A88C2DA92C0BF4539D56BA /* Pods_QAdPicView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QAdPicView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ACFD38EB003D07E78DED0B9CF9806E /* Pods-QAdPicView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAdPicView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E4ACF7F633C5FCBBD79502248FFD7DC /* QAdPicView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QAdPicView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F17B71B1E9B453A07F3EDD9E284CBD4 /* Pods-QAdPicView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAdPicView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F923280FF69E18C6330FCFA56528702 /* Pods-QAdPicView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAdPicView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2578994AAE23FDA66AC05D974E8C074A /* Pods-QAdPicView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAdPicView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25FA6D75E89E698828F39E579A75BD29 /* QAdPicView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QAdPicView.xcconfig; sourceTree = "<group>"; };
+		3A674F66C06BC8996CA6844F1C23EF2E /* Pods-QAdPicView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QAdPicView_Example.modulemap"; sourceTree = "<group>"; };
+		4718FD979611C8858744214C266D12E0 /* Pods-QAdPicView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAdPicView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		489CFD3E7574B4C58DB1B9304B75A9CC /* Pods-QAdPicView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAdPicView_Tests-dummy.m"; sourceTree = "<group>"; };
+		49B512E16E4B12A8E20158ABEE69F1BE /* Pods-QAdPicView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QAdPicView_Tests.modulemap"; sourceTree = "<group>"; };
+		4A71DDF07C64CE4DDC0373275A16DD9D /* QAdPicView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QAdPicView.podspec; sourceTree = "<group>"; };
+		523628DDEF01B500F95DFA7A2D4F5856 /* QAdPicView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAdPicView-umbrella.h"; sourceTree = "<group>"; };
+		55B3D140B72CE674AF1B4FBDE9224AE7 /* QAdPicView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QAdPicView.h; path = QAdPicView/Classes/QAdPicView.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68231CCF6631C4AEB69D44AF0C120A50 /* Pods-QAdPicView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAdPicView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74E4B28BCF8079C68A19A079D4351ED4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		78D0FEDE9EA7FF819D4A391C471CE8AD /* Pods_QAdPicView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QAdPicView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED55FEE1441E580D1B47EF9258E5C44 /* QAdPicView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QAdPicView-prefix.pch"; sourceTree = "<group>"; };
+		82FA8B2AB6CAC87994ACE09FAA3223BA /* Pods-QAdPicView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAdPicView_Tests-resources.sh"; sourceTree = "<group>"; };
+		8D83C971630CFD405C04FBC66B786598 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90429E6F53F764511664A79A1EDECA1A /* Pods-QAdPicView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAdPicView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92D14761424CDEAD640335765CE19931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F27D45A9D3D443AE77B0E3666F2B136 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C290CF737D742C76E1FE047C4DEE7580 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4CE452C07917CCDF6F36F29439DC267 /* QAdPicProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QAdPicProtocol.h; path = QAdPicView/Classes/QAdPicProtocol.h; sourceTree = "<group>"; };
+		C7CE0708B9EE7CBD356DD45FC3B46AA4 /* QAdPicView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QAdPicView-dummy.m"; sourceTree = "<group>"; };
+		C98680742D6833C2D02E0E3581F97093 /* Pods-QAdPicView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QAdPicView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB50567CDF692616D6450C9F515C0574 /* Pods-QAdPicView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAdPicView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E61D2AB94942D1A58CFBECF37A7311BA /* Pods-QAdPicView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAdPicView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E62DE0748B32547AE2AA00D826B78EDB /* Pods-QAdPicView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAdPicView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EB072069567EF5059BCF05C73769F64D /* Pods-QAdPicView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QAdPicView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F523DCBA95814C72CC1CE01EEEEE69F9 /* Pods-QAdPicView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QAdPicView_Example-dummy.m"; sourceTree = "<group>"; };
+		FA4182666DD918B644632CE723F5A47B /* QAdPicView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QAdPicView.modulemap; sourceTree = "<group>"; };
+		FD92BD1CDDC677ED84CD9E30DEC285F8 /* Pods-QAdPicView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAdPicView_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D71C7F8D7FD65C630052DFF7D66522C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF4B97253CE0D8AC71C46733A593B9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E6976B21D18FED2B756AC4916F409D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8CDA535870230BAEA800714E7D169E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D166A9654721DA06107DB43B39336443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB17E7753AE5181ABD5FDF036650319 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BC7CA54F0D861F7B898D979EA705E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D83C971630CFD405C04FBC66B786598 /* Info.plist */,
+				FA4182666DD918B644632CE723F5A47B /* QAdPicView.modulemap */,
+				25FA6D75E89E698828F39E579A75BD29 /* QAdPicView.xcconfig */,
+				C7CE0708B9EE7CBD356DD45FC3B46AA4 /* QAdPicView-dummy.m */,
+				7ED55FEE1441E580D1B47EF9258E5C44 /* QAdPicView-prefix.pch */,
+				523628DDEF01B500F95DFA7A2D4F5856 /* QAdPicView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QAdPicView";
+			sourceTree = "<group>";
+		};
+		0F8009EAACA7EC51CA7254D5962D4183 /* Pods-QAdPicView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F27D45A9D3D443AE77B0E3666F2B136 /* Info.plist */,
+				3A674F66C06BC8996CA6844F1C23EF2E /* Pods-QAdPicView_Example.modulemap */,
+				90429E6F53F764511664A79A1EDECA1A /* Pods-QAdPicView_Example-acknowledgements.markdown */,
+				EB072069567EF5059BCF05C73769F64D /* Pods-QAdPicView_Example-acknowledgements.plist */,
+				F523DCBA95814C72CC1CE01EEEEE69F9 /* Pods-QAdPicView_Example-dummy.m */,
+				1F17B71B1E9B453A07F3EDD9E284CBD4 /* Pods-QAdPicView_Example-frameworks.sh */,
+				FD92BD1CDDC677ED84CD9E30DEC285F8 /* Pods-QAdPicView_Example-resources.sh */,
+				E61D2AB94942D1A58CFBECF37A7311BA /* Pods-QAdPicView_Example-umbrella.h */,
+				DB50567CDF692616D6450C9F515C0574 /* Pods-QAdPicView_Example.debug.xcconfig */,
+				1F923280FF69E18C6330FCFA56528702 /* Pods-QAdPicView_Example.release.xcconfig */,
+			);
+			name = "Pods-QAdPicView_Example";
+			path = "Target Support Files/Pods-QAdPicView_Example";
+			sourceTree = "<group>";
+		};
+		13D45AFC7F9B77185B77DDE8E34278F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8009EAACA7EC51CA7254D5962D4183 /* Pods-QAdPicView_Example */,
+				AB40507D468BC3394F19700CCCD9EB5A /* Pods-QAdPicView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C9AE010F794154ED64C7A5051F1CB7CA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8F5A4A0920765A37C937E50D5CE3F861 /* Products */,
+				13D45AFC7F9B77185B77DDE8E34278F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B51A3F4BC5A72038CF0D51573EF76C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74E4B28BCF8079C68A19A079D4351ED4 /* LICENSE */,
+				4A71DDF07C64CE4DDC0373275A16DD9D /* QAdPicView.podspec */,
+				C290CF737D742C76E1FE047C4DEE7580 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F5A4A0920765A37C937E50D5CE3F861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D0FEDE9EA7FF819D4A391C471CE8AD /* Pods_QAdPicView_Example.framework */,
+				169AF6BF09A88C2DA92C0BF4539D56BA /* Pods_QAdPicView_Tests.framework */,
+				1E4ACF7F633C5FCBBD79502248FFD7DC /* QAdPicView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB40507D468BC3394F19700CCCD9EB5A /* Pods-QAdPicView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92D14761424CDEAD640335765CE19931 /* Info.plist */,
+				49B512E16E4B12A8E20158ABEE69F1BE /* Pods-QAdPicView_Tests.modulemap */,
+				C98680742D6833C2D02E0E3581F97093 /* Pods-QAdPicView_Tests-acknowledgements.markdown */,
+				4718FD979611C8858744214C266D12E0 /* Pods-QAdPicView_Tests-acknowledgements.plist */,
+				489CFD3E7574B4C58DB1B9304B75A9CC /* Pods-QAdPicView_Tests-dummy.m */,
+				E62DE0748B32547AE2AA00D826B78EDB /* Pods-QAdPicView_Tests-frameworks.sh */,
+				82FA8B2AB6CAC87994ACE09FAA3223BA /* Pods-QAdPicView_Tests-resources.sh */,
+				17ACFD38EB003D07E78DED0B9CF9806E /* Pods-QAdPicView_Tests-umbrella.h */,
+				2578994AAE23FDA66AC05D974E8C074A /* Pods-QAdPicView_Tests.debug.xcconfig */,
+				68231CCF6631C4AEB69D44AF0C120A50 /* Pods-QAdPicView_Tests.release.xcconfig */,
+			);
+			name = "Pods-QAdPicView_Tests";
+			path = "Target Support Files/Pods-QAdPicView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9AE010F794154ED64C7A5051F1CB7CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBC6D90CFB9292AC4B7D5EB866AEB95 /* QAdPicView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DFBC6D90CFB9292AC4B7D5EB866AEB95 /* QAdPicView */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE452C07917CCDF6F36F29439DC267 /* QAdPicProtocol.h */,
+				55B3D140B72CE674AF1B4FBDE9224AE7 /* QAdPicView.h */,
+				06967F98D40F2B91B4E33F4F450E14C7 /* QAdPicView.m */,
+				8B51A3F4BC5A72038CF0D51573EF76C8 /* Pod */,
+				02BC7CA54F0D861F7B898D979EA705E5 /* Support Files */,
+			);
+			name = QAdPicView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2548E0BEC3435DBF3F76A195B6820B1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14026AFF8ADCDC2CEEFCBB417C87F72 /* Pods-QAdPicView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D102959ABE22E6C78DC6032B487465AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC7D299D8453869A857C724EE5AE5B7 /* QAdPicProtocol.h in Headers */,
+				3A6045B7F61DAEB5C3D190C70390F712 /* QAdPicView-umbrella.h in Headers */,
+				FB5B54526A5E6CA8A042C63FD397C5A8 /* QAdPicView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8477AF2853C32FFEBAB8285F816E7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC6A84A3481A6AF3223370E0C5F22A4 /* Pods-QAdPicView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0985130BEF408B5CF05D300551552E42 /* QAdPicView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C8A3420196F115E3D1E3899B58FA81 /* Build configuration list for PBXNativeTarget "QAdPicView" */;
+			buildPhases = (
+				BE5F66254DEA7C688A824F55F47DB499 /* Sources */,
+				D166A9654721DA06107DB43B39336443 /* Frameworks */,
+				D102959ABE22E6C78DC6032B487465AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QAdPicView;
+			productName = QAdPicView;
+			productReference = 1E4ACF7F633C5FCBBD79502248FFD7DC /* QAdPicView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB845692D43EE0C9252E59C60EA88C5E /* Pods-QAdPicView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3958DB70E4AB0C35E820EF19B005DBB /* Build configuration list for PBXNativeTarget "Pods-QAdPicView_Example" */;
+			buildPhases = (
+				3BF297054DA50F345399FD0D12A175DA /* Sources */,
+				4D71C7F8D7FD65C630052DFF7D66522C /* Frameworks */,
+				EE8477AF2853C32FFEBAB8285F816E7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7B634724DB91397E834911755364B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-QAdPicView_Example";
+			productName = "Pods-QAdPicView_Example";
+			productReference = 78D0FEDE9EA7FF819D4A391C471CE8AD /* Pods_QAdPicView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FED88A1CDAF52FEF79DA3157D66B29C5 /* Pods-QAdPicView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F63556331299739E32447E7BA098D71 /* Build configuration list for PBXNativeTarget "Pods-QAdPicView_Tests" */;
+			buildPhases = (
+				1C70B1959AD8C95C75330B983E25FE27 /* Sources */,
+				C6E6976B21D18FED2B756AC4916F409D /* Frameworks */,
+				2548E0BEC3435DBF3F76A195B6820B1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD528E35D3F2F4BF50DC5542EE4A2D5F /* PBXTargetDependency */,
+			);
+			name = "Pods-QAdPicView_Tests";
+			productName = "Pods-QAdPicView_Tests";
+			productReference = 169AF6BF09A88C2DA92C0BF4539D56BA /* Pods_QAdPicView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F5A4A0920765A37C937E50D5CE3F861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB845692D43EE0C9252E59C60EA88C5E /* Pods-QAdPicView_Example */,
+				FED88A1CDAF52FEF79DA3157D66B29C5 /* Pods-QAdPicView_Tests */,
+				0985130BEF408B5CF05D300551552E42 /* QAdPicView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C70B1959AD8C95C75330B983E25FE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE03B12A70034D5BF8A0AF4E89B366E /* Pods-QAdPicView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF297054DA50F345399FD0D12A175DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7754CF45386F9FB7901D7E0B991DAA /* Pods-QAdPicView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5F66254DEA7C688A824F55F47DB499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F10192A0BC9588AC67880FCDEF8B45 /* QAdPicView-dummy.m in Sources */,
+				33524C8B1A13B58D4BDF8DB863746998 /* QAdPicView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7B634724DB91397E834911755364B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QAdPicView;
+			target = 0985130BEF408B5CF05D300551552E42 /* QAdPicView */;
+			targetProxy = 73350FF9FA38FB2E62D9D73CAE8EDF12 /* PBXContainerItemProxy */;
+		};
+		DD528E35D3F2F4BF50DC5542EE4A2D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QAdPicView_Example";
+			target = FB845692D43EE0C9252E59C60EA88C5E /* Pods-QAdPicView_Example */;
+			targetProxy = 07242E1E197363994C3618FC30C31CB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A4CA33D8E401EC3F21A6053332E339D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FA6D75E89E698828F39E579A75BD29 /* QAdPicView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QAdPicView/QAdPicView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QAdPicView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QAdPicView/QAdPicView.modulemap";
+				PRODUCT_MODULE_NAME = QAdPicView;
+				PRODUCT_NAME = QAdPicView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61013A88FE6969F4B389CE8E277AC622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68231CCF6631C4AEB69D44AF0C120A50 /* Pods-QAdPicView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAdPicView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAdPicView_Tests/Pods-QAdPicView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7536E95443FF4880838120B306425B09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FA6D75E89E698828F39E579A75BD29 /* QAdPicView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QAdPicView/QAdPicView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QAdPicView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QAdPicView/QAdPicView.modulemap";
+				PRODUCT_MODULE_NAME = QAdPicView;
+				PRODUCT_NAME = QAdPicView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D83C28888ECF53D8C1C08515955B493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2578994AAE23FDA66AC05D974E8C074A /* Pods-QAdPicView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAdPicView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAdPicView_Tests/Pods-QAdPicView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C5A3340131569128116804F3180FFAC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F923280FF69E18C6330FCFA56528702 /* Pods-QAdPicView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAdPicView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAdPicView_Example/Pods-QAdPicView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0EAE5A6C59E535FF457E4043C5A85B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB50567CDF692616D6450C9F515C0574 /* Pods-QAdPicView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QAdPicView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QAdPicView_Example/Pods-QAdPicView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C8A3420196F115E3D1E3899B58FA81 /* Build configuration list for PBXNativeTarget "QAdPicView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4CA33D8E401EC3F21A6053332E339D /* Debug */,
+				7536E95443FF4880838120B306425B09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F63556331299739E32447E7BA098D71 /* Build configuration list for PBXNativeTarget "Pods-QAdPicView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D83C28888ECF53D8C1C08515955B493 /* Debug */,
+				61013A88FE6969F4B389CE8E277AC622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3958DB70E4AB0C35E820EF19B005DBB /* Build configuration list for PBXNativeTarget "Pods-QAdPicView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0EAE5A6C59E535FF457E4043C5A85B6 /* Debug */,
+				C5A3340131569128116804F3180FFAC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

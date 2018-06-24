@@ -1,0 +1,16 @@
+PODS:
+  - QAdPicView (0.1.0)
+
+DEPENDENCIES:
+  - QAdPicView (from `../`)
+
+EXTERNAL SOURCES:
+  QAdPicView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QAdPicView: 55cd90bfdd16f3a767f03f2b31159254e9637508
+
+PODFILE CHECKSUM: 1b3bb438dee6cb4ea4c8b2df3fb35e2b29652a20
+
+COCOAPODS: 1.5.2
