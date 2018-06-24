@@ -6,6 +6,7 @@ target 'QAdPicView_Example' do
   target 'QAdPicView_Tests' do
     inherit! :search_paths
 
+pod 'QBaseConfig/Category'
     
   end
 end

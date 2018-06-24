@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185ED02920DF748F00D523F9 /* UIImageView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ED02720DF748F00D523F9 /* UIImageView+XMGExtension.m */; };
+		185ED02C20DF74AE00D523F9 /* UIImageView+XMGExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 185ED02B20DF74AE00D523F9 /* UIImageView+XMGExtension.h */; };
 		2A7754CF45386F9FB7901D7E0B991DAA /* Pods-QAdPicView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F523DCBA95814C72CC1CE01EEEEE69F9 /* Pods-QAdPicView_Example-dummy.m */; };
 		2BB17E7753AE5181ABD5FDF036650319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		33524C8B1A13B58D4BDF8DB863746998 /* QAdPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06967F98D40F2B91B4E33F4F450E14C7 /* QAdPicView.m */; };
@@ -42,6 +44,8 @@
 		06967F98D40F2B91B4E33F4F450E14C7 /* QAdPicView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QAdPicView.m; path = QAdPicView/Classes/QAdPicView.m; sourceTree = "<group>"; };
 		169AF6BF09A88C2DA92C0BF4539D56BA /* Pods_QAdPicView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QAdPicView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17ACFD38EB003D07E78DED0B9CF9806E /* Pods-QAdPicView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QAdPicView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		185ED02720DF748F00D523F9 /* UIImageView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+XMGExtension.m"; path = "QAdPicView/Classes/UIImageView+XMGExtension.m"; sourceTree = "<group>"; };
+		185ED02B20DF74AE00D523F9 /* UIImageView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+XMGExtension.h"; path = "QAdPicView/Classes/UIImageView+XMGExtension.h"; sourceTree = "<group>"; };
 		1E4ACF7F633C5FCBBD79502248FFD7DC /* QAdPicView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QAdPicView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F17B71B1E9B453A07F3EDD9E284CBD4 /* Pods-QAdPicView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QAdPicView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1F923280FF69E18C6330FCFA56528702 /* Pods-QAdPicView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QAdPicView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 		DFBC6D90CFB9292AC4B7D5EB866AEB95 /* QAdPicView */ = {
 			isa = PBXGroup;
 			children = (
+				185ED02B20DF74AE00D523F9 /* UIImageView+XMGExtension.h */,
+				185ED02720DF748F00D523F9 /* UIImageView+XMGExtension.m */,
 				C4CE452C07917CCDF6F36F29439DC267 /* QAdPicProtocol.h */,
 				55B3D140B72CE674AF1B4FBDE9224AE7 /* QAdPicView.h */,
 				06967F98D40F2B91B4E33F4F450E14C7 /* QAdPicView.m */,
@@ -258,6 +264,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185ED02C20DF74AE00D523F9 /* UIImageView+XMGExtension.h in Headers */,
 				5BC6A84A3481A6AF3223370E0C5F22A4 /* Pods-QAdPicView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7754CF45386F9FB7901D7E0B991DAA /* Pods-QAdPicView_Example-dummy.m in Sources */,
+				185ED02920DF748F00D523F9 /* UIImageView+XMGExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
